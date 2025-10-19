@@ -9,7 +9,9 @@ export function AboutSection() {
                     Sobre Mí
                 </Heading>
                 <Paragraph className="text-lg text-gray-600 dark:text-gray-400 text-center leading-relaxed">
-                    Apasionado por la tecnología y el código limpio. Soy Ingeniero en Informática de la [Universidad Ficticia de Santiago]. En mi tiempo libre, contribuyo a proyectos open-source y exploro nuevas tecnologías como Rust y WebAssembly. Siempre buscando el próximo desafío.
+                    Soy una persona responsable, organizada y con facilidad para aprender nuevas tareas. Me caracterizo por mi compromiso, actitud proactiva y disposición para asumir desafíos. Actualmente estudio en Duoc UC, donde curso el segundo año de Ingeniería en Informática, lo que me ha permitido fortalecer mis conocimientos en tecnología, programación y resolución de problemas.
+
+                    Busco una oportunidad que me permita desarrollar mis habilidades, aportar valor al equipo y seguir creciendo tanto personal como profesionalmente. Me adapto con facilidad a distintos entornos de trabajo, disfruto colaborar con otros y mantengo siempre una actitud positiva orientada al aprendizaje y la mejora continua.
                 </Paragraph>
             </div>
         </section>

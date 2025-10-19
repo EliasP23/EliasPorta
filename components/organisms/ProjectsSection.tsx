@@ -3,30 +3,25 @@ import { ProjectCard } from '../molecules/ProjectCard';
 
 const projects = [
     {
-        title: 'FinTrack',
-        description: 'App de seguimiento financiero personal para control de gastos e ingresos.',
-        tags: ['React Native', 'Firebase']
+        title: 'Level-Up Gamer',
+        description: 'Level Up Gamer, es una pagina donde se pueden comprar articulos gamer tienes un amplio catalogo de articulos los cuales puedes adquirir con descuento de 20% si eres de DuocUC',
+        tags: ['CSS', 'HTML', 'JavaScript']
     },
     {
-        title: 'EcoRuta',
-        description: 'Plataforma web para optimizar rutas de recolección de reciclaje en la ciudad.',
-        tags: ['Next.js', 'PostgreSQL', 'Leaflet']
+        title: 'Shierly Store',
+        description: 'Shierly Store, es una pagina donde se pueden realizar pedidos de alimentos para mascotas, Esta tienda online solo tiene ventas a granel',
+        tags: ['HTML', 'CSS',]
     },
-    {
-        title: 'API Gestor de Tareas',
-        description: 'API RESTful para gestión de proyectos y tareas, con autenticación JWT.',
-        tags: ['NestJS', 'Docker', 'JWT']
-    }
 ];
 
 export function ProjectsSection() {
     return (
         <section id="projects" className="py-20">
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-4 ">
                 <Heading as="h3" className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">
                     Proyectos Destacados
                 </Heading>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 ">
                     {projects.map((project) => (
                         <ProjectCard
                             key={project.title}

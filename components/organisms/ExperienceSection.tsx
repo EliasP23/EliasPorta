@@ -3,17 +3,11 @@ import { TimelineItem } from '../molecules/TimelineItem';
 
 const jobs = [
     {
-        date: '2022 - Presente',
-        title: 'Sr. Software Engineer @ Innovatech Solutions',
-        description: 'Lidero el desarrollo de la plataforma SaaS principal, usando Microservicios en AWS, Node.js y React.',
+        date: '2025',
+        title: 'Ayudantia DuocUC',
+        description: 'Servicio de Ayudantia de SERVICIOS DIGITALES en DuocUC Se realiza un servicio tecnico a cualquier dispositivo que lo requiera solucionando cualquier incoveniente ',
         align: 'right' as const
     },
-    {
-        date: '2019 - 2022',
-        title: 'Full Stack Developer @ Digital Nomads Co.',
-        description: 'Desarrollo de aplicaciones web E-commerce para clientes internacionales usando MERN stack.',
-        align: 'left' as const
-    }
 ];
 
 export function ExperienceSection() {

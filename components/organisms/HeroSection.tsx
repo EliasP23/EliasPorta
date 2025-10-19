@@ -9,19 +9,19 @@ export function HeroSection() {
                 Hola, soy Elias Parra
             </Heading>
             <Heading as="h2" className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300 mb-8">
-                Ingeniero en Informática & Full Stack Developer
+                Estudiante de  Ingenieria en Informática
             </Heading>
             <Paragraph className="max-w-2xl mx-auto text-lg text-gray-600 dark:text-gray-400 mb-8">
-                Más de 5 años de experiencia transformando ideas en soluciones de software robustas y escalables. Especialista en desarrollo backend con Node.js y frontend con React.
+                Siempre disponible y dispuesto a aprender, mejorar y adquirir nuevos conocimientos que me permitan crecer tanto personal como profesionalmente, aportando valor en cada proyecto que emprendo.
             </Paragraph>
             <div className="flex justify-center gap-4">
-                <Button href="httpsa://github.com/eliasparra-fake" variant="github">
+                <Button href="https://github.com/EliasP23" variant="github">
                     GitHub
                 </Button>
-                <Button href="httpsa://linkedin.com/in/eliasparra-fake" variant="linkedin">
+                <Button href="https://www.linkedin.com/in/elias-parra-1a9ab42a1/" variant="linkedin">
                     LinkedIn
                 </Button>
-                <Button href="mailto:elias.parra.fake@devmail.com" variant="contact">
+                <Button href="mailto:el.parrav@duocuc.cl" variant="contact">
                     Contacto
                 </Button>
             </div>
