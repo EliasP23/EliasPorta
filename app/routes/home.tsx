@@ -1,13 +1,13 @@
 import type { Route } from "./+types/home";
-import { homelayout } from "/components/layout/homeLayout"
+import { PortfolioTemplate } from "../../components/templates/PortfolioTemplate";
 
 export function meta({}: Route.MetaArgs) {
-  return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
-  ];
+    return [
+        { title: "Elias Parra - Ingeniero en Informática" },
+        { name: "description", content: "Portafolio de Elias Parra, Ingeniero en Informática y Full Stack Developer. Experto en React, Node.js y AWS." },
+    ];
 }
 
 export default function Home() {
-  return <homelayout/>;
+    return <PortfolioTemplate />;
 }
