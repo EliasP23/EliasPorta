@@ -1,17 +1,19 @@
 import { Heading } from '../atoms/Heading';
 import { ProjectCard } from '../molecules/ProjectCard';
-
 const projects = [
     {
         title: 'Level-Up Gamer',
         description: 'Level Up Gamer, es una pagina donde se pueden comprar articulos gamer tienes un amplio catalogo de articulos los cuales puedes adquirir con descuento de 20% si eres de DuocUC',
         tags: ['CSS', 'HTML', 'JavaScript']
+
     },
     {
         title: 'Shierly Store',
         description: 'Shierly Store, es una pagina donde se pueden realizar pedidos de alimentos para mascotas, Esta tienda online solo tiene ventas a granel',
-        tags: ['HTML', 'CSS',]
+        tags: ['HTML', 'CSS'],
+        link: 'https://ventagranel.netlify.app/'
     },
+
 ];
 
 export function ProjectsSection() {
@@ -28,6 +30,7 @@ export function ProjectsSection() {
                             title={project.title}
                             description={project.description}
                             tags={project.tags}
+                            link={project.link}
                         />
                     ))}
                 </div>

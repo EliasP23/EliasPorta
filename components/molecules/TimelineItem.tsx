@@ -13,7 +13,7 @@ export function TimelineItem({ date, title, description, align }: Props) {
 
     return (
         <div className={`mb-8 flex justify-between ${isRight ? 'flex-row-reverse' : ''} items-center w-full`}>
-            <div className="w-1/2"></div> {/* Empty side for spacing */}
+            <div className="w-1/2"></div>
             <div className={`w-1/2 ${isRight ? 'pr-8' : 'pl-8'}`}>
                 <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md">
                     <span className="font-bold text-blue-600 dark:text-blue-400">{date}</span>
