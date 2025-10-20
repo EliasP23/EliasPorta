@@ -16,8 +16,6 @@ export function Navbar() {
                 <a href="#home" className="text-xl font-bold text-gray-900 dark:text-white">
                     Elias Parra
                 </a>
-
-                {/* Desktop Menu */}
                 <div className="hidden md:flex space-x-6">
                     {navLinks.map((link) => (
                         <a
@@ -48,7 +46,7 @@ export function Navbar() {
                             key={link.href}
                             href={link.href}
                             className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 py-1"
-                            onClick={() => setIsOpen(false)} // Close menu on click
+                            onClick={() => setIsOpen(false)}
                         >
                             {link.label}
                         </a>

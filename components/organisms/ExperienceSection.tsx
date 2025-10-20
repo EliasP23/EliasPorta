@@ -18,7 +18,6 @@ export function ExperienceSection() {
                     Experiencia Laboral
                 </Heading>
                 <div className="relative max-w-3xl mx-auto">
-                    {/* Timeline bar */}
                     <div className="absolute left-1/2 w-0.5 h-full bg-gray-300 dark:bg-gray-700 transform -translate-x-1/2"></div>
 
                     {jobs.map((job) => (
